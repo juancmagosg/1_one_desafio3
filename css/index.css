@@ -56,3 +56,66 @@ form{
     background: #D4E4FA;
     cursor: pointer;
 }
+
+.banner{
+    height: 352px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url("../img/bannerHongoMario.jpg") center / cover no-repeat;
+    
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.banner-ubicacion{
+    width: 100%; 
+    height: auto;
+    padding: 32px 10%;
+    border: 1px solid red;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    
+}
+
+
+.banner-titulo{
+    width: 751px;
+    height: 61px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+    color: #FFFFFF;
+}
+
+.banner-promocional{
+    width: 751px;
+    height: 26px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.banner-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    width: 129px;
+    height: 51px;
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+    border-style: none;
+}
+
+.banner-btn:hover{
+    background: #5595E9;
+}
