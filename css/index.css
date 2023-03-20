@@ -2,6 +2,7 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
+/* BARRA DE NAVEGACIÓN */
 .cabecera{    
     display: flex;
     justify-content: space-between;    
@@ -57,6 +58,7 @@ form{
     cursor: pointer;
 }
 
+/* BANNER */
 .banner{
     height: 352px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url("../img/bannerHongoMario.jpg") center / cover no-repeat;
@@ -74,11 +76,8 @@ form{
 
     display: flex;
     flex-direction: column;
-    gap: 16px;
-
-    
+    gap: 16px;    
 }
-
 
 .banner-titulo{
     width: 751px;
@@ -118,4 +117,42 @@ form{
 
 .banner-btn:hover{
     background: #5595E9;
+}
+
+/* STAR WARS */
+
+.titulo-productos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 16px 10%;
+}
+
+.titulo-categoria{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+}
+
+.btn-verTodo{
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2A7AE4;
+}
+
+.productos-descripcion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    margin: 0 auto;
+    padding: 32px 10%;
 }
