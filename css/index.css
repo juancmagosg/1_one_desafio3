@@ -7,7 +7,7 @@ body{
     display: flex;
     justify-content: space-between;    
     padding: 32px 10%;
-    border: 1px solid red;
+    
 }
 
 form{
@@ -72,7 +72,7 @@ form{
     width: 100%; 
     height: auto;
     padding: 32px 10%;
-    border: 1px solid red;
+    
 
     display: flex;
     flex-direction: column;
@@ -203,16 +203,15 @@ form{
 
 .lista-contacto{
     display: flex;    
-    flex-direction: column;
-    border: 1px solid red;
+    flex-direction: column;    
 }
 
-.main_contenedor{
+.lista-contenedor{
     padding-bottom: 16px;
 }
 
 
-.main-link{
+.lista-liga{
     text-decoration: none;
     color: #464646;
     
@@ -235,8 +234,7 @@ fieldset{
 
 .contacto-form{
     background: #EAF2FD;    
-    width: 100%;
-    border: 1px solid orange;
+    width: 100%;   
     
 }
 
